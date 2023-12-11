@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thematic Apperception Test (TAT)</title>
+  <meta name="description" content="." />
+  <link rel="stylesheet" href="https://unpkg.com/chota@latest" />
+  <link rel="stylesheet" href="./style.css" />
+  <script type="text/javascript" src="./script.js"></script>
+</head>
+
+<body class="container" role="document">
+  <header>
+    <div class="row">
+      <div class="col is-right">
+        <a href="javascript:void(0)" id="theme-switch" onclick="switchMode(this)"><span id="swith">☀️</span></a>
+      </div>
+    </div>
+  </header>
+  <main>
+
+    <article>
+      <header>
+        <h1>PDD Collection</h1>
+        <nav class="tabs">
+          <a>Tab 1</a>
+          <a>Tab 2</a>
+          <a class="active">Tab 3</a>
+        </nav>
+      </header>
+
+      <article>
+        <header>
+          <h2 class="is-center">Thematic Apperception Test</h2>
+          <nav class="tabs is-center">
+            <a>Handbooks</a>
+            <a>Manual</a>
+            <a>Pictures</a>
+          </nav>
+        </header>
+        <!--  -->
+
+        <div class="row">
+          <div class="col">
+            <section>
+              <h3>Description</h3>
+              <p>The <strong>Thematic apperception test (TAT)</strong> is a type of projective test that involves
+                describing ambiguous scenes to learn more about a person's emotions, motivations, and personality. It
+                was developed during the 1930s by Henry Murray and Christiana Morgan.</p>
+              <p>The TAT is a projective examination where an individual is shown vague sketches and asked to make up
+                stories about them. The stories should include what happened prior to the scene in the sketch, what is
+                happening in the sketch, and an ending. The original test and its modifications (like MITT) sometimes
+                used for lie detection purposes.</p>
+            </section>
+          </div>
+        </div>
+
+
+
+
+        <!--  -->
+      </article>
+
+      <article>
+        <header>
+          <h2>Other psychological</h2>
+          <nav class="tabs">
+            <a>Tab 1</a>
+            <a>Tab 2</a>
+            <a class="active">Tab 3</a>
+          </nav>
+        </header>
+      </article>
+
+      <article>
+        <header>
+          <h2>Books</h2>
+          <nav class="tabs">
+            <a>Tab 1</a>
+            <a>Tab 2</a>
+            <a class="active">Tab 3</a>
+          </nav>
+        </header>
+      </article>
+
+      <article>
+        <header>
+          <h2>Journals</h2>
+          <nav class="tabs">
+            <a>Tab 1</a>
+            <a>Tab 2</a>
+            <a class="active">Tab 3</a>
+          </nav>
+        </header>
+
+      </article>
+
+      <article>
+        <header>
+          <h2>Pictures</h2>
+        </header>
+
+      </article>
+
+      <article>
+        <header>
+          <h2>Memorabilia</h2>
+        </header>
+
+      </article>
+
+    </article>
+
+  </main>
+  <footer>
+    <div class="row">
+      <div class="col is-center">
+        <div class="copyright">© 2023</div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    if (
+      window.matchMedia &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches
+    ) {
+      document.body.classList.add("dark");
+    }
+  </script>
+  <script>
+    if (
+      window.matchMedia &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches
+    ) {
+      document.body.classList.add("dark");
+      document.querySelector("#theme-switch").innerHTML = "🌙";
+    }
+    function switchMode(el) {
+      const bodyClass = document.body.classList;
+      bodyClass.contains("dark")
+        ? ((el.innerHTML = "☀️"), bodyClass.remove("dark"))
+        : ((el.innerHTML = "🌙"), bodyClass.add("dark"));
+    }
+  </script>
+</body>
+
+</html>
+</body>
+
+</html>
