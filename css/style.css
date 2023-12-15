@@ -22,7 +22,6 @@ body.dark {
 figure {
     float: right;
     width: 100%;
-
     text-indent: 0;
     border: thin silver solid;
     border-radius: 5px;
@@ -39,8 +38,8 @@ figcaption {
 
 figure > img {
     background: #F1F1FA;
-    width: 400px;
     height: auto;
+    max-height: 320px;
     display: block;
     object-fit: cover;
     margin: 10px auto;
