@@ -43,5 +43,13 @@ figure > img {
     display: block;
     object-fit: cover;
     margin: 10px auto;
-    border-radius: 5px;
+    border-radius: 5px
+}
+
+.book_li {
+    font-size: 90%;
+}
+
+.book_desc {
+    font-weight: bold;
 }
