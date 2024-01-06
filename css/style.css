@@ -51,5 +51,10 @@ figure > img {
 }
 
 .book_desc {
-    font-weight: bold;
+    font-weight: lighter;
 }
+
+.first {
+    color: red;}
+
+
