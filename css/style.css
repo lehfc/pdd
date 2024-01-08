@@ -18,6 +18,7 @@ body.dark {
 #swith {
     font-size: 150%;
 }
+.switch {margin-top: 1rem}
 
 figure {
     float: right;
@@ -56,5 +57,6 @@ figure > img {
 
 .first {
     color: red;}
+
 
 
