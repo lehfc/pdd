@@ -5,10 +5,75 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PDD Collection</title>
-  <meta name="description" content=".">
-  <link rel="stylesheet" href="./css/basic.css">
-  <link rel="stylesheet" href="./css/style.css">
+  <meta name="description" content="The collection includes literature on lie detection testing. These items allow one to capture the chronology
+  and dynamics of PDD practices, and the evolution of the work of individual polygraph practitioners.">
+  <link rel="stylesheet" href="https://unpkg.com/chota@latest">
   <script src="./js/script.js"></script>
+  <style>
+    .container {
+      padding-left: 2rem;
+      padding-right: 2rem
+    }
+
+    p {
+      max-width: 60ch
+    }
+
+    body.dark {
+      --bg-color: #121212;
+      --bg-secondary-color: #131316;
+      --font-color: #f5f5f5;
+      --color-grey: #ccc;
+      --color-darkGrey: #777
+    }
+
+    #swith {
+      font-size: 150%
+    }
+
+    .switch {
+      margin-top: 1rem
+    }
+
+    figure {
+      float: right;
+      width: 100%;
+      text-indent: 0;
+      border: thin solid silver;
+      border-radius: 5px;
+      margin: .2rem;
+      padding: .2rem
+    }
+
+    figcaption {
+      margin: 0 auto;
+      padding-top: .5em;
+      font-size: small;
+      text-align: center
+    }
+
+    figure>img {
+      background: #f1f1fa;
+      height: auto;
+      max-height: 320px;
+      display: block;
+      object-fit: cover;
+      margin: 10px auto;
+      border-radius: 5px
+    }
+
+    .book_li {
+      font-size: 90%
+    }
+
+    .book_desc {
+      font-weight: lighter
+    }
+
+    .first {
+      color: red
+    }
+  </style>
 </head>
 
 <body class="container" role="document">
@@ -33,8 +98,8 @@
             <object data="./images/book.svg" width="128" height="128" class="hide-xs hide-sm hide-md"> </object>
           </div>
           <div class="nav-right">
-            <a href="#photos">Photos</a>
-            <a href="#videos">Videos</a>
+            <a href="#manuals">Manuals</a>
+            <a href="#photo">Photos</a>
             <a href="#other">Other</a>
           </div>
         </nav>
@@ -45,7 +110,7 @@
         </header>
         <section id="apamag">
           <h3 class="is-center">APA Magazine</h3>
-          <p>The Magazine for the Polygraph Professional.</p>
+          <p>The Magazine for the Polygraph Professional</p>
           <div class="row">
             <div class="col-6 col-3-lg">
               <div class="card is-center">
@@ -575,7 +640,10 @@
                 <figure>
                   <img class="lazy" data-src="./images/Polygraph_1972_Volume_1,1-Volume_39,4.webp"
                     alt="This is a single 11809p. PDF file, a compilation of every issue of Polygraph Journal from the first one, March, 1972, through the year 2010.">
-                  <figcaption>The original, unaltered archive of all of the journal Polygraph for the years 1972 through 2010.  A <a href="./docs/polygraph_journal_index_1972-2010.json">list of articles</a> from the journal from 1972-2010, searchable by article title, author(s) names, date and keywords.</figcaption>
+                  <figcaption>The original, unaltered archive of all of the journal Polygraph for the years 1972 through
+                    2010. A <a href="./docs/polygraph_journal_index_1972-2010.json">list of articles</a> from the
+                    journal from 1972-2010, searchable by article title, author(s) names, date and keywords.
+                  </figcaption>
                 </figure>
               </div>
             </div>
@@ -585,7 +653,8 @@
           <h3 class="is-center">News &amp; Views</h3>
           <div class="row">
             <div class="col">
-              <p>A single 261p. PDF archive, a compilation of every issue of Polygraph News & Views from the first one, November, 1993, through the year 2005.</p>
+              <p>A single 261p. PDF archive, a compilation of every issue of Polygraph News & Views from the first one,
+                November, 1993, through the year 2005.</p>
             </div>
             <div class="col">
               <div class="card is-center">
@@ -2533,48 +2602,59 @@
           <div class="col-2-lg col-3-md">
             <div class="card is-center">
               <figure>
-                <img class="lazy" data-src="./images/Reid_Employee_Harassment_1.webp" alt="1">
-                <figcaption>1</figcaption>
+                <img class="lazy" data-src="./images/Reid_Employee_Harassment_1.webp"
+                  alt="Techniques for harassment investigations. This 3 hour training program offers specific instruction on how to conduct the interview of a complainant and respondent during the harassment investigation. The training is divided into 5 modules, with an accompanying 69 page Study Guide. Throughout the course, portions of 22 actual harassment interviews.">
+                <figcaption>The Reid Technique.
+                  Harassment Investigations
+                </figcaption>
               </figure>
             </div>
           </div>
           <div class="col-2-lg col-3-md">
             <div class="card is-center">
               <figure>
-                <img class="lazy" data-src="./images/Reid_Employee_Harassment_2.webp" alt="2">
-                <figcaption>2</figcaption>
+                <img class="lazy" data-src="./images/Reid_Employee_Harassment_2.webp"
+                  alt="Techniques for harassment investigations. This 3 hour training program offers specific instruction on how to conduct the interview of a complainant and respondent during the harassment investigation. The training is divided into 5 modules, with an accompanying 69 page Study Guide. Throughout the course, portions of 22 actual harassment interviews.">
+                <figcaption>The Reid Technique.
+                  Harassment Investigations</figcaption>
               </figure>
             </div>
           </div>
           <div class="col-2-lg col-3-md">
             <div class="card is-center">
               <figure>
-                <img class="lazy" data-src="./images/Reid_Employee_Theft_1.webp" alt="1">
-                <figcaption>1</figcaption>
+                <img class="lazy" data-src="./images/Reid_Employee_Theft_1.webp"
+                  alt="This 110 minute audio course with accompanying study guide represents the first in a series of audio programs developed by John E. Reid and Associates, Inc. There are five segments to the program, four of which represent different examples of employee theft interrogations. For easy listening the program is divided into five separate training segments, each lasting 15 to 20 minutes.">
+                <figcaption>The Reid Technique.
+                  Employee Theft</figcaption>
               </figure>
             </div>
           </div>
           <div class="col-2-lg col-3-md">
             <div class="card is-center">
               <figure>
-                <img class="lazy" data-src="./images/Reid_Employee_Theft_2.webp" alt="1">
-                <figcaption>1</figcaption>
+                <img class="lazy" data-src="./images/Reid_Employee_Theft_2.webp"
+                  alt="This 110 minute audio course with accompanying study guide represents the first in a series of audio programs developed by John E. Reid and Associates, Inc. There are five segments to the program, four of which represent different examples of employee theft interrogations. For easy listening the program is divided into five separate training segments, each lasting 15 to 20 minutes.">
+                <figcaption>The Reid Technique.
+                  Employee Theft</figcaption>
               </figure>
             </div>
           </div>
           <div class="col-2-lg col-3-md">
             <div class="card is-center">
               <figure>
-                <img class="lazy" data-src="./images/Reid_Telephone_Interrogation_1.webp" alt="1">
-                <figcaption>1</figcaption>
+                <img class="lazy" data-src="./images/Reid_Telephone_Interrogation_1.webp"
+                  alt="Many industries such as insurance companies, financial institutions, and credit card companies rely extensively on telephone interviews to conduct their investigations. The course author is Daniel Marsano, a leading expert in telephone interviewing techniques.">
+                <figcaption>The Reid Technique. Telephone interviewing</figcaption>
               </figure>
             </div>
           </div>
           <div class="col-2-lg col-3-md">
             <div class="card is-center">
               <figure>
-                <img class="lazy" data-src="./images/Reid_Telephone_Interrogation_2.webp" alt="1">
-                <figcaption>1</figcaption>
+                <img class="lazy" data-src="./images/Reid_Telephone_Interrogation_2.webp"
+                  alt="Many industries such as insurance companies, financial institutions, and credit card companies rely extensively on telephone interviews to conduct their investigations. The course author is Daniel Marsano, a leading expert in telephone interviewing techniques.">
+                <figcaption>The Reid Technique. Telephone interviewing</figcaption>
               </figure>
             </div>
           </div>
@@ -2598,10 +2678,9 @@
           <div class="col-6 col-3-lg">
             <div class="card is-center">
               <figure>
-                <img class="lazy" data-src="./images/Lafayette_Polygraph_System_Users_Manual.webp"
-                  alt=">Lafayette Polygraph Users Manual<">
-                <figcaption>Lafayette Polygraph
-                  Users Manual</figcaption>
+                <img class="lazy" data-src="./images/Polygraph_Techniques_Quick_Guide.webp"
+                  alt="Polygraph Techniques Quick Guide">
+                <figcaption>Polygraph Techniques Guide</figcaption>
               </figure>
             </div>
           </div>
@@ -2626,82 +2705,41 @@
       </article>
 
       <article>
-        <header>
-          <h2 class="is-center">Photos &amp; Pictures</h2>
+        <header id="photo">
+          <h2 class="is-center">Photographs</h2>
         </header>
 
-        <!-- <div class="row">
-          <div class="col-6 col-3-lg">
-            <div class="card is-center">
-              <figure>
-                <img class="lazy" data-src="./images/Reid_2006_Seminar_Schedule_&_Product_Catalog.webp"
-                  alt="John E. Reid & Associates, Inc. 2006 Seminar Schedule & Product Catalog">
-                <figcaption>John E. Reid & Associates, Inc. 2006 Seminar Schedule &amp; Product Catalog</figcaption>
-              </figure>
-            </div>
-          </div>
-          <div class="col-6 col-3-lg">
-            <div class="card is-center">
-              <figure>
-                <img class="lazy" data-src="./images/Lafayette_Conventional_Polygraphs_Catalog_1997.webp"
-                  alt="Lafayette Conventional Polygraphs Catalog, 1997">
-                <figcaption>Lafayette Conventional Polygraphs Catalog, 1997</figcaption>
-              </figure>
-            </div>
-          </div>
-          <div class="col-6 col-3-lg">
-            <div class="card is-center">
-              <figure>
-                <img class="lazy" data-src="./images/Lafayette_Computerized_Polygraphs_Catalog_1997.webp"
-                  alt="Lafayette Computerized Polygraphs Catalog, 1997">
-                <figcaption>Lafayette Computerized Polygraphs Catalog, 1997</figcaption>
-              </figure>
-            </div>
-          </div>
-          <div class="col-6 col-3-lg">
-            <div class="card is-center">
-              <figure>
-                <img class="lazy" data-src="./images/Lafayette_Instrumental_Company_Calendar_1997-1998.webp"
-                  alt="Lafayette Instrumental Company Calendar 1997-1998">
-                <figcaption>Lafayette Instrumental Company Calendar 1997-1998</figcaption>
-              </figure>
-            </div>
-          </div>
-        </div> -->
         <div class="row">
           <div class="col-6 col-3-lg">
             <div class="card is-center">
               <figure>
-                <img class="lazy" data-src="./images/Father_Summers_1937.webp"
-                  alt="John E. Reid & Associates, Inc. 2006 Seminar Schedule & Product Catalog">
-                <figcaption>1</figcaption>
+                <img class="lazy" data-src="./images/WC_Wideman_Demonstrating_Lie_Detector_1935.webp"
+                  alt="W.C. Wideman Demonstrating Lie Detector, 1935">
+                <figcaption>W.C. Wideman, 1935</figcaption>
               </figure>
             </div>
           </div>
           <div class="col-6 col-3-lg">
             <div class="card is-center">
               <figure>
-                <img class="lazy" data-src="./images/John_E_Reid_1947.webp"
-                  alt="Lafayette Conventional Polygraphs Catalog, 1997">
-                <figcaption>2</figcaption>
+                <img class="lazy" data-src="./images/Father_Summers_1937.webp" alt="Fr. Walter Summers S.J., 1937">
+                <figcaption>Fr. Walter Summers, 1937</figcaption>
               </figure>
             </div>
           </div>
           <div class="col-6 col-3-lg">
             <div class="card is-center">
               <figure>
-                <img class="lazy" data-src="./images/John_E_Reid_1952.webp"
-                  alt="Lafayette Computerized Polygraphs Catalog, 1997">
-                <figcaption>3</figcaption>
+                <img class="lazy" data-src="./images/John_E_Reid_1947.webp" alt="John Reid, 1947">
+                <figcaption>John Reid, 1947</figcaption>
               </figure>
             </div>
           </div>
           <div class="col-6 col-3-lg">
             <div class="card is-center">
               <figure>
-                <img class="lazy" data-src="./images/John_E_Reid_1954.webp"
-                  alt="Lafayette Instrumental Company Calendar 1997-1998">
-                <figcaption>4</figcaption>
+                <img class="lazy" data-src="./images/John_E_Reid_1952.webp" alt="John Reid, 1952">
+                <figcaption>John Reid, 1952</figcaption>
               </figure>
             </div>
           </div>
@@ -2711,36 +2749,33 @@
           <div class="col-6 col-3-lg">
             <div class="card is-center">
               <figure>
-                <img class="lazy" data-src="./images/"
-                  alt="John E. Reid & Associates, Inc. 2006 Seminar Schedule & Product Catalog">
-                <figcaption>5</figcaption>
+                <img class="lazy" data-src="./images/John_E_Reid_1954.webp" alt="John Reid, 1954">
+                <figcaption>John Reid, 1954</figcaption>
               </figure>
             </div>
           </div>
           <div class="col-6 col-3-lg">
             <div class="card is-center">
               <figure>
-                <img class="lazy" data-src="./images/Lafayette_Conventional_Polygraphs_Catalog_1997.webp"
-                  alt="Lafayette Conventional Polygraphs Catalog, 1997">
-                <figcaption>6</figcaption>
+                <img class="lazy" data-src="./images/Harry_Karl_1958.webp" alt="Harry Karl, 1958">
+                <figcaption>Harry Karl, 1958</figcaption>
               </figure>
             </div>
           </div>
           <div class="col-6 col-3-lg">
             <div class="card is-center">
               <figure>
-                <img class="lazy" data-src="./images/Harry_Karl_1958.webp"
-                  alt="Lafayette Computerized Polygraphs Catalog, 1997">
-                <figcaption>7</figcaption>
+                <img class="lazy" data-src="./images/Cecil_Corbett_Smith_1963.webp" alt="/Cecil Corbett Smith, 1963">
+                <figcaption>Cecil Corbett Smith,
+                  1963</figcaption>
               </figure>
             </div>
           </div>
           <div class="col-6 col-3-lg">
             <div class="card is-center">
               <figure>
-                <img class="lazy" data-src="./images/Lafayette_Instrumental_Company_Calendar_1997-1998.webp"
-                  alt="Lafayette Instrumental Company Calendar 1997-1998">
-                <figcaption>8</figcaption>
+                <img class="lazy" data-src="./images/John_E_Reid_1977.webp" alt="John Reid, 1977">
+                <figcaption>John Reid, 1977</figcaption>
               </figure>
             </div>
           </div>
@@ -2749,16 +2784,15 @@
 
       </article>
       <article>
-        <header>
+        <header id="other">
           <h2 class="is-center">Memorabilia</h2>
         </header>
         <div class="row">
           <div class="col-6 col-3-lg">
             <div class="card is-center">
               <figure>
-                <img class="lazy" data-src="./images/Reid_2006_Seminar_Schedule_&_Product_Catalog.webp"
-                  alt="John E. Reid & Associates, Inc. 2006 Seminar Schedule & Product Catalog">
-                <figcaption>John E. Reid & Associates, Inc. 2006 Seminar Schedule &amp; Product Catalog</figcaption>
+                <img class="lazy" data-src="./images/US_Patent_1788434_1931_1.webp" alt="/US Patent 1788434,1931,1">
+                <figcaption>U.S. Patent 1,788,434</figcaption>
               </figure>
             </div>
           </div>
@@ -2794,69 +2828,38 @@
           <div class="col-6 col-3-lg">
             <div class="card is-center">
               <figure>
-                <img class="lazy" data-src="./images/Polygraph_plate.webp" alt="">
-                <figcaption>*</figcaption>
+                <img class="lazy" data-src="./images/Polygraph_plate.webp" alt="Polygraph plate">
+                <figcaption>Polygraph plate</figcaption>
               </figure>
             </div>
           </div>
           <div class="col-6 col-3-lg">
             <div class="card is-center">
               <figure>
-                <img class="lazy" data-src="./images/Lafayette_polygraph_chart.webp" alt="*">
-                <figcaption>*</figcaption>
+                <img class="lazy" data-src="./images/Lafayette_polygraph_chart.webp" alt="Lafayette polygraph chart">
+                <figcaption>Lafayette polygraph
+                  chart</figcaption>
               </figure>
             </div>
           </div>
           <div class="col-6 col-3-lg">
             <div class="card is-center">
               <figure>
-                <img class="lazy" data-src="./images/APA_lapel_pin.webp" alt="*">
-                <figcaption>*</figcaption>
+                <img class="lazy" data-src="./images/APA_lapel_pin.webp" alt="APA lapel pin">
+                <figcaption>APA pin</figcaption>
               </figure>
             </div>
           </div>
           <div class="col-6 col-3-lg">
             <div class="card is-center">
               <figure>
-                <img class="lazy" data-src="./images/ASPS_polygraph_chart_template.webp" alt="*">
-                <figcaption>*</figcaption>
+                <img class="lazy" data-src="./images/Absolut_Truth.webp" alt="Absolut Truth">
+                <figcaption>Absolut Truth</figcaption>
               </figure>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-6 col-3-lg">
-            <div class="card is-center">
-              <figure>
-                <img class="lazy" data-src="./images/US_Patent_1788434_1931_1.webp" alt="U.S. Patent 1,788,434 (1931)">
-                <figcaption>U.S. Patent 1,788,434 (1931)</figcaption>
-              </figure>
-            </div>
-          </div>
-          <div class="col-6 col-3-lg">
-            <div class="card is-center">
-              <figure>
-                <img class="lazy" data-src="./images/US_Patent_1788434_1931_2.webp" alt="U.S. Patent 1,788,434 (1931)">
-                <figcaption>U.S. Patent 1,788,434 (1931)</figcaption>
-              </figure>
-            </div>
-          </div>
-          <div class="col-6 col-3-lg">
-            <div class="card is-center">
-              <figure>
-                <img class="lazy" data-src="./images/US_Patent_1788434_1931_5.webp" alt="U.S. Patent 1,788,434 (1931)">
-                <figcaption>U.S. Patent 1,788,434 (1931)</figcaption>
-              </figure>
-            </div>
-          </div>
-          <div class="col-6 col-3-lg">
-            <div class="card is-center">
-              <figure>
-                <img class="lazy" data-src="./images/US_Patent_1788434_1931_6.webp" alt="U.S. Patent 1,788,434 (1931)">
-                <figcaption>U.S. Patent 1,788,434 (1931)</figcaption>
-              </figure>
-            </div>
-          </div>
+
         </div>
       </article>
       <article>
@@ -2869,7 +2872,8 @@
               <h3>Description</h3>
               <p>The <strong>Thematic apperception test (TAT)</strong> is a type of projective test that involves
                 describing ambiguous scenes to learn more about a person's emotions, motivations, and personality. It
-                was developed during the 1930s by Henry Murray and Christiana Morgan.  The original test and its modifications (like MITT) sometimes
+                was developed during the 1930s by Henry Murray and Christiana Morgan. The original test and its
+                modifications (like MITT) sometimes
                 used for lie detection purposes.</p>
             </section>
           </div>
